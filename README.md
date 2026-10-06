@@ -43,8 +43,7 @@ The dataset is structured on Kaggle as follows:
 
 
 ### Result
-- Achieved 0.91 private and public scores on the flood image classi«cation task
-using mAP@250
+- Achieved 0.91 private and public scores on the flood image classification task using mAP@250
 ![Samplle Data/Screenshot%2025-08-05%142821.png](https://github.com/bachPN73/Prediction-Flooding-by-Images-and-Metadata/blob/main/Samplle%20Data/Screenshot%202025-08-05%20154042.png)
 
 ![Samplle Data/Screenshot%2025-08-05%142821.png](https://github.com/bachPN73/Prediction-Flooding-by-Images-and-Metadata/blob/main/Samplle%20Data/Screenshot%202025-08-05%20153834.png)
