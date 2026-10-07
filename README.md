@@ -23,7 +23,7 @@ Applying multi-modal deep learning to fuse these visual and textual features lea
 
 ## 📊 Dataset
 The dataset is structured on Kaggle as follows:
-
+![Link](https://www.kaggle.com/datasets/phmngcbch/2025-sum-dpl-302-rn)
 ```text
 /kaggle/input/2025-sum-dpl-302-m/
 │
@@ -36,14 +36,20 @@ The dataset is structured on Kaggle as follows:
 └── test.csv (Test metadata: image_id, title, description, user_tags)
 ```
 
-#### No Flood
-![Samplle Data/Screenshot%2025-08-05%142821.png](https://github.com/bachPN73/Prediction-Flooding-by-Images-and-Metadata/blob/main/Samplle%20Data/Screenshot%202025-08-05%20142821.png)
-#### Flood
-![Samplle Data/Screenshot%2025-08-05%142821.png](https://github.com/bachPN73/Prediction-Flooding-by-Images-and-Metadata/blob/main/Samplle%20Data/Screenshot%202025-08-05%20142826.png)
-
 
 ### Result
 - Achieved 0.91 private and public scores on the flood image classification task using mAP@250
-![Samplle Data/Screenshot%2025-08-05%142821.png](https://github.com/bachPN73/Prediction-Flooding-by-Images-and-Metadata/blob/main/Samplle%20Data/Screenshot%202025-08-05%20154042.png)
 
 ![Samplle Data/Screenshot%2025-08-05%142821.png](https://github.com/bachPN73/Prediction-Flooding-by-Images-and-Metadata/blob/main/Samplle%20Data/Screenshot%202025-08-05%20153834.png)
+
+### 🚀 Quick Setup & Usage
+
+**1. Clone the repository:**
+```bash
+git clone [https://github.com/bachPN73/Detection_Flooding_by_images_and_metadata.git](https://github.com/bachPN73/Detection_Flooding_by_images_and_metadata.git)
+cd Detection_Flooding_by_images_and_metadata
+```
+**2. Install dependencies:
+```bash
+pip install torch torchvision transformers scikit-learn pandas numpy Pillow
+```
